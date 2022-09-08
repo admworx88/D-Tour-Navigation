@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgColor1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green">
+
+            <LinearLayout
+
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerInParent="true">
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="CASH AUDIT ONLY"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/bordershadow2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/counter_text_bg"
+                android:text="INSPECTOR"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textInsID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:text="002435"
+                        android:layout_marginRight="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ALJON  MOLIVA"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:id="@+id/textInsName"
+                        android:layout_marginRight="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/counter_text_bg"></View>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/TextView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Passenger :"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="10dp"/>
+                    <TextView
+                        android:id="@+id/TextView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Baggage    :"
+                        android:textStyle="bold"
+                        android:textSize="11sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="8dp"/>
+                    <TextView
+                        android:id="@+id/TextView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Collection  :"
+                        android:textStyle="bold"
+                        android:textSize="11sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="8dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/TextView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+                        android:textSize="11sp"
+                        android:layout_marginRight="10dp"/>
+                    <TextView
+                        android:id="@+id/TextView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00"
+                        android:layout_marginTop="5dp"
+                        android:textSize="11sp"
+                        android:layout_marginRight="8dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/TextView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000.00"
+                        android:textSize="11sp"
+                        android:layout_marginRight="10dp"/>
+                    <TextView
+                        android:id="@+id/TextView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00.00"
+                        android:textSize="11sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"/>
+                    <TextView
+                        android:id="@+id/TextView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00.00"
+                        android:textSize="11sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="155dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less ( Expenses )"
+                    android:textSize="12dp"
+                    android:textStyle="bold|italic"/>
+
+                <EditText
+                    android:id="@+id/textExpenses"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/textColorHint"
+                    android:textSize="15dp"
+                    android:singleLine="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:inputType="number"
+                    android:background="@drawable/bordershadow"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Computed Cash"
+                    android:textSize="12dp"
+                    android:textStyle="bold|italic"/>
+
+                <EditText
+                    android:id="@+id/textComputedCash"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/textColorHint"
+                    android:textSize="15dp"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:enabled="false"
+                    android:background="@drawable/bordershadow"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="155dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash On Hand"
+                    android:textSize="12dp"
+                    android:textStyle="bold|italic"/>
+
+                <EditText
+                    android:id="@+id/textCashOnHand"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/textColorHint"
+                    android:textSize="15dp"
+                    android:singleLine="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:inputType="number"
+                    android:background="@drawable/bordershadow"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash Shortage"
+                    android:textSize="12dp"
+                    android:textStyle="bold|italic"/>
+
+                <EditText
+                    android:id="@+id/textCashStorage"
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/textColorHint"
+                    android:textSize="15dp"
+                    android:singleLine="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:enabled="false"
+                    android:inputType="number"
+                    android:background="@drawable/bordershadow"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearAnomaly"
+                android:clickable="true"
+                android:background="@drawable/linearlayout_selector"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/anomaly"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="8dp"
+                            android:text="ANOMALY"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="35dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="X"
+                                    android:textSize="15sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:id="@+id/AnomalyCode"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="XXXX"
+                                    android:textSize="9sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/AnomalyDesc"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/next1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="7dp"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remarks:"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/textRemarks"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/textColorHint"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/bordershadow"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+   <Button
+       android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT AUDIT"
+        android:id="@+id/ButtonReport"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector_2"
+        android:textColor="@color/textColor"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

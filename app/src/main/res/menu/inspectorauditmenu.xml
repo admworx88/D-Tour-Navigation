@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/InspectorAudit"
+        android:title="Inspector"
+        android:icon="@drawable/navigation"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/replaceZone"
+                android:title="Replace Zone"
+                android:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/adjustTicket"
+                android:title="Adjust Ticket"
+                android:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/addPax"
+                android:title="Issue Ticket"
+                android:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/cancelTicket"
+                android:title="Cancel Ticket"
+                android:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/reportAnomaly"
+                android:title="Report Anomaly"
+                android:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/logoutInspector"
+                android:title="Log Out Inspector"
+                android:showAsAction="ifRoom">
+            </item>
+        </menu>
+    </item>
+
+</menu>

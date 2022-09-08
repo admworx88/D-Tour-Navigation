@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.admoliva.metrobusticketing" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme">
+
+       <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <data android:scheme="db-olkebzndq4rm05n" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activitity.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/NoTitleBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".Service.BluetoothConnectionService"/>
+        <activity
+            android:name=".Activitity.MainActivity"
+            android:theme="@style/MyTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="Login"/>
+        <activity
+            android:name=".Activitity.AdminLoginActivity"
+            android:screenOrientation="portrait"
+            android:label="Administrator Login">
+        </activity>
+        <activity
+            android:name=".Activitity.AdminDashboard"
+            android:screenOrientation="portrait"
+            android:label="Administrator Dashboard">
+        </activity>
+        <activity android:name=".Activitity.SelfAuditActivity"
+            android:label="Self Audit"
+            android:screenOrientation="portrait"
+            android:icon="@drawable/selfaudit1"/>
+        <activity android:name=".Activitity.FareMatricsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.ProgramUserActivity"
+            android:label="Back to Utilities"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.TicketsActivity"
+            android:label="Back to Utilities"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.RoutesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.ValidationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.LoadDataActivity"
+            android:label="Back to Dashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ListActivity.KmPostActivity"
+            android:label="Kilometer Post"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ListActivity.RouteCodeListActivity"
+            android:label="Select Route Code"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ListActivity.PassTypeListActivity"
+            android:label="Issue Ticket"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.BluetoothActivity"
+            android:label="Back to Utilities"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.DeviceListActivity"/>
+        <activity android:name=".Activitity.MenusActivity"
+            android:label="Menus"
+            android:theme="@style/MyTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.NewTripActivity"
+                    android:label="New Trip Number"
+                    android:icon="@drawable/newtrip"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.IssueTicketActivity"
+            android:label="Issue Ticket"
+            android:icon="@drawable/paxticket"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.AboutActivity"
+            android:label="Back"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.LineInspectionActivity"
+            android:label="Line Inspection Page"
+            android:icon="@drawable/inspector"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.InspectorAuditLoginActivity"
+            android:label="Inspector Login"
+            android:icon="@drawable/inspector"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".InspectorAuditActivity.AdjustTicketActivity"
+            android:label="Back"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ListActivity.AnomalyDataActivity"
+            android:label="Choose Anomaly Report"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".InspectorAuditActivity.CancelTicketActivity"
+            android:label="Cancel Ticket"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".InspectorAuditActivity.ReportAnomalyActivity"
+            android:label="Back"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.SyncToDBActivity"
+            android:label="Sync Data into PC"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".InspectorAuditActivity.InspectorIssueTicketActivity"
+            android:label="Back"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.CashAuditActivity"
+            android:label="Cash Audit Page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CashAuditActivity.CashAuditOnlyActivity"
+            android:label="Back"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CashAuditActivity.CashAuditWithDepositActivity"
+            android:label="Back"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.UtilitiesActivity"
+            android:label="Back to Dashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activitity.BIRActivity"
+            android:label="Back to Dashboard"
+            android:screenOrientation="portrait"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+
+
+</manifest>

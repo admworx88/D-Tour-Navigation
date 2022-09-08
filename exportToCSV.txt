@@ -1,0 +1,40 @@
+   final File tempDir = context.getCacheDir();
+        File tempFile;
+        FileWriter fr;
+        try {
+            DatabaseHelper db = new DatabaseHelper(this.context);
+
+            /*tempFile = File.createTempFile("file", ".txt", tempDir);
+            fr = new FileWriter(tempFile);
+            fr.write("Test file uploaded using Dropbox API for Android");
+            fr.close();*/
+
+            File file = new File(tempDir, "tkt_trans.csv");
+            file.createNewFile();
+            CSVWriter csvWrite = new CSVWriter(new FileWriter(file));
+            Cursor curCSV = db.getAllTransData(db);
+            csvWrite.writeNext(curCSV.getColumnNames());
+            curCSV.moveToFirst();
+            do
+            {
+                //Which column you want to exprort
+                String arrStr[] ={curCSV.getString(0),curCSV.getString(1), curCSV.getString(2),
+                        curCSV.getString(3),curCSV.getString(4), curCSV.getString(5),curCSV.getString(6),
+                        curCSV.getString(7), curCSV.getString(8), curCSV.getString(9),curCSV.getString(10), curCSV.getString(11),
+                        curCSV.getString(12),curCSV.getString(13), curCSV.getString(14),curCSV.getString(15),curCSV.getString(16)};
+                csvWrite.writeNext(arrStr);
+            } while(curCSV.moveToNext());
+            csvWrite.close();
+            curCSV.close();
+
+            FileInputStream fileInputStream = new FileInputStream(file);
+            dropboxApi.putFile(path + "tkt_trans.csv", fileInputStream,
+                    file.length(), null, null);
+            file.delete();
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (DropboxException e) {
+            e.printStackTrace();
+        }
+        return false;

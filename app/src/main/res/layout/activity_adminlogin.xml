@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Davao Metro Shuttle Corporation"
+            android:textColor="@color/buscolorlogo"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/textView8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Android Bus Ticketing System"
+            android:textColor="@color/buscolorlogo"
+            android:layout_gravity="center"
+            android:id="@+id/textView9"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bordershadow"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/UsernameAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="User ID"
+            android:ems="10"
+            android:textColorHint="@color/textColorHint"
+            android:typeface="normal"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/PasswordAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:hint="Password"
+            android:textColorHint="@color/textColorHint"
+            android:typeface="normal"/>
+
+
+    </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:id="@+id/LoginButtonAdmin"
+            android:background="@drawable/button_selector_2"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold"
+            android:id="@+id/button6"
+            android:background="@drawable/button_selector_2"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="7dp" />
+    </LinearLayout>
+</ScrollView>

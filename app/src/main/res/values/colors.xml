@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgColor">#B33232</color>
+    <color name="bgColor1">#dfdfdf</color>
+    <color name="textColor">#f8e0e7e1</color>
+    <color name="textColor1">#f8d2d9d3</color>
+    <color name="white">#ffffff</color>
+    <color name="textColorHint">#3c3f41</color>
+    <color name="panelColor">#F0F0F0</color>
+    <color name="darkBlue">#0a1136</color>
+    <color name="green">#4b8900</color>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+   <color name="divider">#0D0D0D</color>
+    <color name="black">#FF000000</color>
+    <color name="buscolorlogo">#990d0d</color>
+    <color name="buttoncolor">#3c0000</color>
+    <color name="buttoncolor2">#250000</color>
+</resources>

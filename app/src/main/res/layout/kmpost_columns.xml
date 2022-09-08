@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/KMFRN"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:text="000"/>
+
+        <TextView
+            android:id="@+id/KMFRT"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".7"
+            android:textStyle="bold"
+            android:text="DAVAO"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/KMTON"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:textStyle="bold"
+            android:text="055"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/KMTOT"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="TAGUM"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/FAREG"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/FARES"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/FARELET"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/FARESAK"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/FARETON"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text=""
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

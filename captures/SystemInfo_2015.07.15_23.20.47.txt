@@ -1,0 +1,154 @@
+TASK com.admoliva.metrobusticketing id=651
+  ACTIVITY com.admoliva.metrobusticketing/.LoginActivity 414d5f48 pid=32707
+    Local Activity 420ed888 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 515mcc3mnc en_US ldltr sw320dp w320dp h508dp 240dpi nrml long port finger -keyb/v/h dpad/v skin=/system/framework/framework-res.apk s.15}
+    FragmentManager misc state:
+      mActivity=com.admoliva.metrobusticketing.activitity.LoginActivity@420ed888
+      mContainer=android.app.Activity$1@420ed9f8
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{412d30e0 V.E..... R....... 0,0-480,800}
+        android.widget.LinearLayout{412b9598 V.E..... ........ 0,0-480,800}
+          com.android.internal.widget.ActionBarContainer{412c4328 V.ED.... ........ 0,38-480,110 #1020361 android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{412c4560 V.E..... ........ 0,0-480,72 #1020362 android:id/action_bar}
+              android.widget.LinearLayout{412c48a8 V.....C. ........ 13,0-324,72}
+                com.android.internal.widget.ActionBarView$HomeView{412c4ad0 V.E..... ........ 0,0-60,72}
+                  android.widget.ImageView{41303400 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.ImageView{413035c8 V.ED.... ........ 6,12-54,60 #102002c android:id/home}
+                android.widget.LinearLayout{412f4b50 V.E..... ........ 60,0-311,72}
+                  android.widget.ImageView{412ea640 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.LinearLayout{412ea808 V.E..... ........ 0,17-239,54}
+                    android.widget.TextView{412eaa30 V.ED.... ........ 0,0-239,37 #102024f android:id/action_bar_title}
+                    android.widget.TextView{4207e868 G.ED.... ......I. 0,0-0,0 #1020250 android:id/action_bar_subtitle}
+              com.android.internal.view.menu.ActionMenuView{412bd808 V.ED.... ........ 396,0-480,72}
+                com.android.internal.view.menu.ActionMenuItemView{412ebcb8 VFED..CL ........ 0,0-84,72 #7f0d0096 app:id/settings}
+            com.android.internal.widget.ActionBarContextView{4207eb38 G.E..... ......ID 0,0-0,0 #1020363 android:id/action_context_bar}
+          android.widget.FrameLayout{4207ed88 V.ED.... ........ 0,110-480,800 #1020002 android:id/content}
+            android.widget.ScrollView{412c78c0 VFED.V.. ........ 0,0-480,690}
+              android.widget.LinearLayout{412c7b30 V.E..... ........ 15,75-465,611 #7f0d0072 app:id/LoginPanel}
+                android.widget.ImageView{4207c180 V.ED.... ........ 153,0-296,101 #7f0d0073 app:id/imageView}
+                android.widget.TextView{4207c348 V.ED.... ........ 28,116-421,157 #7f0d0074 app:id/textView8}
+                android.widget.TextView{4207c618 V.ED.... ........ 105,157-344,178 #7f0d0075 app:id/textView9}
+                android.widget.EditText{412e4260 VFED..CL ........ 0,193-450,268 #7f0d0076 app:id/Username}
+                android.widget.EditText{412e4530 VFED..CL .F...... 0,283-450,358 #7f0d0077 app:id/Password}
+                android.widget.Button{412bd268 VFED..C. ........ 0,381-450,453 #7f0d0078 app:id/LoginButton}
+                android.widget.Button{412bd538 VFED..C. ........ 0,464-450,536 #7f0d0079 app:id/ExitButton}
+          com.android.internal.widget.ActionBarContainer{412c7688 G.ED.... ......ID 0,0-0,0 #1020364 android:id/split_action_bar}
+
+  ACTIVITY com.admoliva.metrobusticketing/.AdminDashboard 413e12b0 pid=32707
+    Local Activity 4207aab8 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 515mcc3mnc en_US ldltr sw320dp w320dp h508dp 240dpi nrml long port finger -keyb/v/h dpad/v skin=/system/framework/framework-res.apk s.15}
+    FragmentManager misc state:
+      mActivity=com.admoliva.metrobusticketing.activitity.AdminDashboard@4207aab8
+      mContainer=android.app.Activity$1@4207ac20
+      mCurState=3 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4207b908 I.E..... R....... 0,0-480,800}
+        android.widget.LinearLayout{4207bf58 V.E..... ........ 0,0-480,800}
+          com.android.internal.widget.ActionBarContainer{4207cac0 V.ED.... ........ 0,38-480,110 #1020361 android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{4207d128 V.E..... ........ 0,0-480,72 #1020362 android:id/action_bar}
+              android.widget.LinearLayout{4207e618 V.....C. ........ 13,0-388,72}
+                com.android.internal.widget.ActionBarView$HomeView{4207fca0 V.E..... ........ 0,0-60,72}
+                  android.widget.ImageView{42080088 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.ImageView{42080390 V.ED.... ........ 6,12-54,60 #102002c android:id/home}
+                android.widget.LinearLayout{42081ad0 V.E..... ........ 60,0-375,72}
+                  android.widget.ImageView{42081e40 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.LinearLayout{42082150 V.E..... ........ 0,17-303,54}
+                    android.widget.TextView{420824c8 V.ED.... ........ 0,0-303,37 #102024f android:id/action_bar_title}
+                    android.widget.TextView{420831a8 G.ED.... ......I. 0,0-0,0 #1020250 android:id/action_bar_subtitle}
+              com.android.internal.view.menu.ActionMenuView{4208c1e0 V.ED.... ........ 396,0-480,72}
+                com.android.internal.view.menu.ActionMenuItemView{412b03b8 VFED..CL ........ 0,0-84,72 #7f0d00ad app:id/logout}
+            com.android.internal.widget.ActionBarContextView{420837b0 G.E..... ......ID 0,0-0,0 #1020363 android:id/action_context_bar}
+          android.widget.FrameLayout{42083cb8 V.ED.... ........ 0,110-480,800 #1020002 android:id/content}
+            android.widget.LinearLayout{42084d88 V.E..... ........ 0,0-480,690}
+              android.widget.LinearLayout{420850b0 V.E..... ........ 15,15-465,218}
+                android.widget.TextView{42085428 V.ED.... ........ 0,15-169,44 #7f0d0066 app:id/textView12}
+                android.widget.Button{42085940 VFED..C. ........ 0,59-450,131 #7f0d0067 app:id/ButtonAddRecordConductor}
+                android.widget.Button{420863d0 VFED..C. ........ 0,131-450,203 #7f0d0068 app:id/ButtonUpdateRecordConductor}
+              android.widget.LinearLayout{42086e28 V.E..... ........ 15,248-465,405}
+                android.widget.TextView{42087158 V.ED.... ........ 0,0-146,29 #7f0d0069 app:id/textView13}
+                android.widget.TextView{42087630 V.ED.... ........ 0,44-148,85 #7f0d006a app:id/textView14}
+                android.widget.Button{42087b00 VFED..C. ........ 0,85-450,157 #7f0d006b app:id/button8}
+          com.android.internal.widget.ActionBarContainer{420840b8 G.ED.... ......ID 0,0-0,0 #1020364 android:id/split_action_bar}
+
+  ACTIVITY com.admoliva.metrobusticketing/.AdminLoginActivity 41bd8e50 pid=32707
+    Local Activity 41404c40 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 515mcc3mnc en_US ldltr sw320dp w320dp h508dp 240dpi nrml long port finger -keyb/v/h dpad/v skin=/system/framework/framework-res.apk s.15}
+    FragmentManager misc state:
+      mActivity=com.admoliva.metrobusticketing.activitity.AdminLoginActivity@41404c40
+      mContainer=android.app.Activity$1@41404db8
+      mCurState=3 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{413e8708 I.E..... R......D 0,0-480,800}
+        android.widget.LinearLayout{4140b668 V.E..... .......D 0,0-480,800}
+          com.android.internal.widget.ActionBarContainer{413e9508 V.ED.... ........ 0,38-480,110 #1020361 android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{412b22b8 V.E..... ........ 0,0-480,72 #1020362 android:id/action_bar}
+              android.widget.LinearLayout{412a1be0 V.....C. ........ 13,0-324,72}
+                com.android.internal.widget.ActionBarView$HomeView{412a5038 V.E..... ........ 0,0-60,72}
+                  android.widget.ImageView{412b6d98 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.ImageView{413f9f50 V.ED.... ........ 6,12-54,60 #102002c android:id/home}
+                android.widget.LinearLayout{412ad490 V.E..... ........ 60,0-311,72}
+                  android.widget.ImageView{413ecc60 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.LinearLayout{413eab68 V.E..... ........ 0,17-239,54}
+                    android.widget.TextView{413ea0a8 V.ED.... ........ 0,0-239,37 #102024f android:id/action_bar_title}
+                    android.widget.TextView{412a8d28 G.ED.... ......I. 0,0-0,0 #1020250 android:id/action_bar_subtitle}
+              com.android.internal.view.menu.ActionMenuView{412ba1a0 V.ED.... ......ID 480,0-480,72}
+            com.android.internal.widget.ActionBarContextView{412a8ff8 G.E..... ......ID 0,0-0,0 #1020363 android:id/action_context_bar}
+          android.widget.FrameLayout{413f1080 V.ED.... .......D 0,110-480,800 #1020002 android:id/content}
+            android.widget.ScrollView{413f14d0 VFED.V.. .......D 0,0-480,690}
+              android.widget.LinearLayout{413f2688 V.E..... .......D 15,75-465,508}
+                android.widget.TextView{413f29f8 V.ED.... ........ 28,0-421,41 #7f0d006c app:id/textView10}
+                android.widget.TextView{412af4b0 V.ED.... ........ 143,41-306,62 #7f0d006d app:id/textView11}
+                android.widget.EditText{412af9c8 VFED..CL ......ID 15,77-435,152 #7f0d006e app:id/UsernameAdmin}
+                android.widget.EditText{4129b528 VFED..CL .F....ID 15,169-435,244 #7f0d006f app:id/PasswordAdmin}
+                android.widget.Button{4129cd00 VFED..C. ........ 15,259-435,331 #7f0d0070 app:id/LoginButtonAdmin}
+                android.widget.Button{412b5510 VFED..C. ........ 15,346-435,418 #7f0d0071 app:id/button6}
+          com.android.internal.widget.ActionBarContainer{413f1298 G.ED.... ......ID 0,0-0,0 #1020364 android:id/split_action_bar}
+
+  ACTIVITY com.admoliva.metrobusticketing/.LoginActivity 41776cf0 pid=32707
+    Local Activity 413ef920 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 515mcc3mnc en_US ldltr sw320dp w320dp h508dp 240dpi nrml long port finger -keyb/v/h dpad/v skin=/system/framework/framework-res.apk s.15}
+    FragmentManager misc state:
+      mActivity=com.admoliva.metrobusticketing.activitity.LoginActivity@413ef920
+      mContainer=android.app.Activity$1@413efa90
+      mCurState=3 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{413f0790 I.E..... R......D 0,0-480,800}
+        android.widget.LinearLayout{413f0e58 V.E..... .......D 0,0-480,800}
+          com.android.internal.widget.ActionBarContainer{413f1a30 V.ED.... ........ 0,38-480,110 #1020361 android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{413f2128 V.E..... ........ 0,0-480,72 #1020362 android:id/action_bar}
+              android.widget.LinearLayout{413f8a38 V.....C. ........ 13,0-324,72}
+                com.android.internal.widget.ActionBarView$HomeView{413fa278 V.E..... ........ 0,0-60,72}
+                  android.widget.ImageView{413fa660 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.ImageView{413fb568 V.ED.... ........ 6,12-54,60 #102002c android:id/home}
+                android.widget.LinearLayout{413fcd78 V.E..... ........ 60,0-311,72}
+                  android.widget.ImageView{413fd0e8 G.ED.... ......I. 0,0-0,0 #1020248 android:id/up}
+                  android.widget.LinearLayout{413fd3f8 V.E..... ........ 0,17-239,54}
+                    android.widget.TextView{413fd770 V.ED.... ........ 0,0-239,37 #102024f android:id/action_bar_title}
+                    android.widget.TextView{413fe4b0 G.ED.... ......I. 0,0-0,0 #1020250 android:id/action_bar_subtitle}
+              com.android.internal.view.menu.ActionMenuView{41411018 V.ED.... ........ 396,0-480,72}
+                com.android.internal.view.menu.ActionMenuItemView{41403758 VFED..CL ........ 0,0-84,72 #7f0d0096 app:id/settings}
+            com.android.internal.widget.ActionBarContextView{413feb78 G.E..... ......ID 0,0-0,0 #1020363 android:id/action_context_bar}
+          android.widget.FrameLayout{413ff0c0 V.ED.... .......D 0,110-480,492 #1020002 android:id/content}
+            android.widget.ScrollView{41400388 VFED.V.. .......D 0,0-480,382}
+              android.widget.LinearLayout{41401000 V.E..... .......D 15,75-465,611 #7f0d0072 app:id/LoginPanel}
+                android.widget.ImageView{41401370 V.ED.... ........ 153,0-296,101 #7f0d0073 app:id/imageView}
+                android.widget.TextView{414016c8 V.ED.... ........ 28,116-421,157 #7f0d0074 app:id/textView8}
+                android.widget.TextView{41401c08 V.ED.... ........ 105,157-344,178 #7f0d0075 app:id/textView9}
+                android.widget.EditText{41402268 VFED..CL .F....ID 0,193-450,268 #7f0d0076 app:id/Username}
+                android.widget.EditText{414040c8 VFED..CL ......ID 0,283-450,358 #7f0d0077 app:id/Password}
+                android.widget.Button{41405a68 VFED..C. ........ 0,381-450,453 #7f0d0078 app:id/LoginButton}
+                android.widget.Button{41408d00 VFED..C. ........ 0,464-450,536 #7f0d0079 app:id/ExitButton}
+          com.android.internal.widget.ActionBarContainer{413ff4e0 G.ED.... ......ID 0,0-0,0 #1020364 android:id/split_action_bar}

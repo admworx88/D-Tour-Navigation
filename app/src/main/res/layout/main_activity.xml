@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bordershadow"
+        android:layout_weight="0.91">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUS"
+                android:id="@+id/textView2"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/textColorHint"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bus"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:text="B4321"
+                android:id="@+id/TextViewBusNo"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textView2"
+                android:layout_toRightOf="@+id/imageView1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="YUTONG NON-AIR"
+                android:id="@+id/TextViewBusName"
+                android:layout_toRightOf="@+id/imageView1"
+                android:layout_below="@+id/TextViewBusNo"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/divider"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Driver"
+                android:id="@+id/textView4"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/textColorHint"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="37dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/textView4"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/driver"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:text="002435"
+                android:id="@+id/TextViewDriverID"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_below="@+id/textView4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="ALJON D. MOLIVA"
+                android:id="@+id/TextViewDriver"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_below="@+id/TextViewDriverID"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/divider"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Conductor"
+                android:id="@+id/textView5"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/textColorHint"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/conductor"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:text="004213"
+                android:id="@+id/TextViewConductorID"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_below="@+id/textView5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="RUDY J. ALAG"
+                android:id="@+id/TextViewConductor"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_below="@+id/TextViewConductorID"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/bordershadow"
+            android:layout_weight="0.91" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Ticket Details"
+                android:textStyle="bold"
+                android:id="@+id/TextViewTicketDetails"
+                android:layout_toRightOf="@+id/imageView1"
+                android:layout_below="@+id/TextViewBusNo"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout
+
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerInParent="true">
+
+                ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="38dp"
+                    android:src="@drawable/ticket2"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/counter_text_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="Ticket Left: "/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="11sp"
+                    android:textColor="@color/counter_text_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AAA"
+                    android:id="@+id/ticketLeft"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/counter_text_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ticket to Used: "
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="11sp"
+                    android:textColor="@color/counter_text_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AAA"
+                    android:id="@+id/ticketUsed"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <Button
+        android:id="@+id/Menus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="MENUS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+</LinearLayout>
